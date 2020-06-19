@@ -1,1 +1,42 @@
 /* You can add global styles to this file, and also import other style files */
+html,body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+nav {
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: center;
+    background: aliceblue;
+    padding: 14px;
+}
+a {
+    background: mediumspringgreen;
+    padding: 10px 30px;
+    margin: 0 5px;
+    border-radius: 6px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.html-reporter li.passed,
+.html-reporter li.undefined,
+.html-reporter li.suite-detail {
+    height: auto;
+    display: block;
+    min-height: 34px;
+    padding: 4px;
+    margin: -9px;
+}
+
+
+.html-reporter ul.symbol-summary,
+.html-reporter ul.specs {
+    height: auto;
+    min-height: 30px;
+    display: block;
+}
